@@ -8,6 +8,8 @@ export default function Home() {
     <div>
     <div className={styles.page}>
       <h2>What We Really Need</h2>
+      <Sermon title="I Need to Be Happy" date="04/06/25" pastor="Iron Kim" scripture="Psalm 1:1-6" 
+        scriptureLink="https://bible.com/bible/59/PSA.1.1-6" />
       <Sermon title="I Need to be Better" date="03/30/25" pastor="David Jones" scripture="Philippians 2:1-11" 
         scriptureLink="https://www.bible.com/bible/59/PHP.2.1-11" />
       <Sermon title="I Need to be Free" date="03/23/25" pastor="Rod Miles" scripture="Galatians 5:13-15" 
